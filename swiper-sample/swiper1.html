@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/common.css">
+	<title>Swiper test</title>
+</head>
+<body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper01.png" alt="Swiper01">
+      	<div class="swiper-slide-content swiper-slide-content-2">スライド１の内容です。</div>
+      </div>
+      <div class="swiper-slide">
+      	<img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper02.png" alt="Swiper02">
+      	<div class="swiper-slide-content swiper-slide-content-2">
+      		【令和元年度プレーパーク普及事業　プレーパークの開催】
+      		<a href="http://www.kodomo-npo.jp/wp/wp-content/uploads/2019/11/pp_fkyu_1102.jpg">
+      		<img src="http://www.kodomo-npo.jp/wp/wp-content/uploads/2019/11/1102.png" width="200"></a><br />
+      		11/2　築港ひかり町第１公園
+      	</div>
+      </div>
+      <div class="swiper-slide">
+      	<img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper03.png" alt="Swiper03">
+      	<div class="swiper-slide-content swiper-slide-content-3">
+		【2019年11月の動き】
+		<table>
+		  <tr>
+		    <td>
+		      <a href="http://www.kodomo-npo.jp/wp/wp-content/uploads/2019/11/pp1911.pdf" target="_blank">
+		      <img src="http://www.kodomo-npo.jp/wp/wp-content/uploads/2019/11/pp1911.png" width="100"></a>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td valign="top">
+		      <a href="http://www.kodomo-npo.jp/wp/wp-content/uploads/2019/10/森であそぼ10月11月.pdf" target="_blank">
+		      <img src="http://www.kodomo-npo.jp/wp/wp-content/uploads/2017/11/森であそぼ.jpg" width="90"></a>
+		    </td>
+		  </tr>
+		</table>
+		　開催日:水曜日～日曜日　　10:00～16:00
+		<br />　場所:国際児童年記念公園こどもの森
+		</div>
+	</div>
+	<div class="swiper-slide">
+      	<img src="https://haniwaman.com/wp-content/uploads/2018/05/swiper03.png" alt="Swiper04">
+      	<div class="swiper-slide-content swiper-slide-content-4">
+			■御南和やかサロン
+			<br />　毎週火曜日・水曜日　10:00～13:00
+			<br />　<a href="/wp/wp-content/uploads/2019/11/サロンたより（2020年11月～12月）.pdf" target="_blank">
+			サロンだより</a>
+			<br />
+			<br />■鑑賞会
+			<br />　12月鑑賞会
+			<br />　<a href="/wp/wp-content/uploads/2019/11/marinba_all.pdf" target="_blank">
+			「はねるマレットうたうマリンバ」</a>
+		</div>
+	</div>
+	</div>
+	<div class="swiper-pagination"></div>
+	<div class="swiper-button-prev-a"></div>
+	<div class="swiper-button-next-a"></div>
+  </div>
+<script src="js/swiper.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+	navigation: {
+		nextEl: '.swiper-button-next-a',
+		prevEl: '.swiper-button-prev-a',
+	},
+	slidesPerView: 2,
+	spaceBetween: 0,
+	initialSlide: 0,
+	loop: true,
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: true,
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+		clickable: true,
+	},
+  });
+</script>
+</body>
+</html>

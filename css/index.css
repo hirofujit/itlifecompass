@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
+
+/* トップ画像 */
+.topimg {
+		/* padding: 0; */
+		padding-bottom: 10px;
+		position: relative; 
+		isplay:inline-block;
+	}
+.topimg img	{
+		width: 100%;
+		height: auto;
+	}
+
+
+.topimg div {
+		position: absolute; 
+		top: 65%; 
+		right: 3%; 
+		color:orangered;
+		text-shadow: 3px 3px 2px pink;
+		font-size:28pt;
+		line-height:52px;
+		/* font-family: 'Sawarabi Mincho', sans-serif;*/
+		/* font-family: 'Kosugi Maru', sans-serif;*/
+		font-family: 'Noto Serif JP', serif;
+		width: 100%; 
+		max-height: 100%; 
+		text-align: right;
+	}
+
+.philosophy {
+		color:orangered;
+		font-family: 'Noto Serif JP', serif;
+	}
+
+.kiji h2	{
+		color: darkslateblue;
+	}
+
+.kiji h2 i	{
+		color: darkslateblue;
+	}
+
+.notice	{
+		position:relative;
+		padding: 10px 3px 10px 10px;;
+		/* margin: 2em 3em 1em 1em;*/
+		margin: 3px 0px 5px 0px;
+	}
+
+.notice-title	{
+		position:absolute;
+		background-color:#000066;
+		color:white;
+		top:0px;
+		left:0px;
+		height:14pt;
+		padding:6px 10px 4px 10px;
+		z-index:2;
+	}
+
+.notice-list	{
+		/* position:absolute;*/
+		background-color:white;
+		color:#000066;
+		width: 96%;
+		border: 1px solid #000066;
+		padding: 20px 10px 10px 15px;
+		margin-left:0px;
+		z-index:1;
+		
+	}
+	
+.notice-list li	{
+		list-style-type: none;
+		margin: 5px 10px 5px 20px; 
+		text-indent: -30px;
+	}
+
+
+.item1-box 	{
+		position: relative; 
+		isplay:inline-block;
+		width: 50%;
+		/* height:200px;*/
+		/* background-color: aquamarine; 位置確認用 */
+		text-align: center;
+		margin: 0 9% 30% 1%;
+		/* overflow: hidden;*/
+		left: 20%; 
+	}
+	
+.item1-box:before {
+		content: "";
+		display: block;
+		padding-top: 60%; /* 1:1 */
+	}
+
+.item1-connect	{
+		position: absolute; 
+		left: 0%; 
+		top: 34%; 
+		width: 100%;
+	}
+
+.item1-1, .item1-2, .item1-3
+	{
+		position: absolute; 
+		width: 60%;
+		height: 50%;
+	}
+
+
+.item1-1  {
+		left: 20%; 
+		top: 15%; 
+
+		background:#009933;
+		-moz-border-radius: 50% / 50%;
+		-webkit-border-radius: 50% / 50%;
+		border-radius: 50% / 50%;
+	}
+
+
+.item1-2  {
+		left: -22.5%; 
+		top: 80%; 
+		/* background-color: blue; 位置確認用 */
+
+		background:#ff0033;
+		-moz-border-radius: 50% / 50%;
+		-webkit-border-radius: 50% / 50%;
+		border-radius: 50% / 50%;
+	}
+
+
+.item1-3  {
+		left: 62.5%; 
+		top: 80%; 
+		/* background-color: blue; 位置確認用 */
+
+		background:#0000cc;
+		-moz-border-radius: 50% / 50%;
+		-webkit-border-radius: 50% / 50%;
+		border-radius: 50% / 50%;
+	}
+
+
+.item1-1-text, .item1-2-text, .item1-3-text  {
+		position: absolute; 
+		top: 35%; 
+		left: 0%; 
+		width:100%;
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+
+		font-size: 200%;
+		color:white;
+		vertical-align: middle;
+	}
+
+.item1-1-description	{
+		position: absolute; 
+		top: 5%; 
+		left: 85%;
+		width: 70%;
+		font-size: 90%;
+		text-align: left;
+		border: 1px solid gray;
+		padding:5px;
+	}
+
+.item1-2-description	{
+		position: absolute; 
+		top: 135%; 
+		left: -30%;
+		width: 70%;
+		font-size: 90%;
+		text-align: left;
+		border: 1px solid gray;
+		padding:5px;
+	}
+
+.item1-3-description	{
+		position: absolute; 
+		top: 135%; 
+		left: 70%;
+		width: 70%;
+		font-size: 90%;
+		text-align: left;
+		border: 1px solid gray;
+		padding:5px;
+	}
+
+.item1-connect img
+	{
+		width: 100%;
+	}
+
+
+/* ########### 599px以下 ########### */
+@media (max-width: 599px) {
+
+
+
+}
+
+
+/* ########### 767px以下 ########### */
+@media (max-width: 767px) {
+.topimg div {
+		top: 70%; 
+		font-size:24px;
+		font-weight: bold;
+		line-height:16px;
+	}
+.item1-box 	{
+		margin: 0 9% 40% 1%;
+	}
+
+.item1-connect	{
+		top: 54%; 
+	}
+
+.item1-1  {
+		top: 35%; 
+	}
+.item1-2, .item1-3  {
+		top: 100%; 
+	}
+
+.item1-1-text, .item1-2-text, .item1-3-text  {
+		top: 35%; 
+		left: 0%; 
+		width:100%;
+
+		font-size: 140%;
+	}
+
+.item1-2-description, .item1-3-description	{
+		top: 155%; 
+	}
+
+.item1-1-description, .item1-2-description, .item1-3-description	{
+		font-size: 70%;
+	}
+}
+
+/* ########### 768px以上 ########### */
+@media (min-width: 768px) {
+
+
+}
+

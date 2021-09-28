@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.kiji h2	{
+		color: darkslateblue;
+	}
+
+.kiji h2 i	{
+		color: darkslateblue;
+	}
+
+
+.inquiry-form{
+		text-align: center;
+		font-size: 120%;
+	}
+
+
+/* ########### 767pxà»â∫ ########### */
+@media (max-width: 767px) {
+.box-article{
+		margin-bottom:20px;
+	}
+	
+}
+
+/* ########### 768pxà»è„ ########### */
+@media (min-width: 768px) {
+
+}
+

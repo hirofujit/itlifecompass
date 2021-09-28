@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+.kiji h2	{
+		color: forestgreen;
+		border-bottom: solid 1px forestgreen;
+	}
+
+.kiji h3	{
+		color: darkgreen;
+	}
+
+
+.item1-box 	{
+		position: relative; 
+		isplay:inline-block;
+		width: 90%;
+		/* height:200px;*/
+		/* background-color: aquamarine; 位置確認用 */
+		text-align: center;
+		margin: 0 9% 0 1%;
+		/* overflow: hidden;*/
+	}
+	
+.item1-box:before {
+		content: "";
+		display: block;
+		padding-top: 60%; /* 1:1 */
+	}
+
+.item1-img	{
+		position: absolute; 
+		left: 10%; 
+		top: 0%; 
+		max-width: 732px;
+		width: 100%;
+	}
+
+.item1-connect	{
+		position: absolute; 
+		left: 32.5%; 
+		top: 34%; 
+		width: 54.9%;
+	}
+
+.item1-1, .item1-1-text, .item1-2, .item1-2-text, .item1-3, .item1-3-text,
+.item1-4, .item1-4-text, .item1-5, .item1-5-text
+	{
+		position: absolute; 
+		width: 22.5%;
+	}
+
+.item1-1  {
+		left: 49%; 
+		top: 29%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-1-text  {
+		position: absolute; 
+		left: 49%; 
+		top: 34%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-2  {
+		left: 23%; 
+		top: 47%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-2-text  {
+		left: 23%; 
+		top: 52%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-3  {
+		left: 75%; 
+		top: 47%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-3-text  {
+		left: 75%; 
+		top: 52%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+	
+.item1-4  {
+		left: 32%; 
+		top: 77%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-4-text  {
+		left: 32%; 
+		top: 82%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-5  {
+		left: 65%; 
+		top: 77%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-5-text  {
+		left: 65%; 
+		top: 82%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item1-img img, .item1-connect img, .item1-1 img, 
+.item1-2 img, .item1-3 img, .item1-4 img, .item1-5 img,
+.item2-img img, .item2-1 img, .item2-2 img, .item2-3 img
+	{
+		width: 100%;
+	}
+
+.fa-leaf	{
+		color:forestgreen;
+	}
+
+.fa-balance-scale	{
+		color:forestgreen;
+	}
+
+.item2-box 	{
+		position: relative; 
+		isplay:inline-block;
+		width: 90%;
+		/* height:200px;*/
+		/* background-color: aquamarine; 位置確認用 */
+		text-align: center;
+		margin: 0 9% 0 1%;
+		/* overflow: hidden;*/
+	}
+	
+.item2-box:before {
+		content: "";
+		display: block;
+		padding-top: 40%; /* 1:1 */
+	}
+
+.item2-img	{
+		position: absolute; 
+		left: 37%; 
+		top: 10%; 
+		max-width: 184px;
+		width: 25%;
+	}
+
+.item2-1  {
+		left: 28%; 
+		top: 6%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item2-1-text  {
+		position: absolute; 
+		left: 28%; 
+		top: 13%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item2-2  {
+		left: 52%; 
+		top: 40%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item2-2-text  {
+		left: 52%; 
+		top: 47%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item2-3  {
+		left: 28%; 
+		top: 75%; 
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item2-3-text  {
+		left: 28%; 
+		top: 82%; 
+		text-align: center;
+		/* background-color: blue; 位置確認用 */
+	}
+
+.item2-1, .item2-1-text, .item2-2, .item2-2-text, .item2-3, .item2-3-text
+	{
+		position: absolute; 
+		width: 22.5%;
+	}
+
+
+.simple-list	{
+		margin-top: 0px;
+		margin-bottom: 5px;
+		list-style-type: square;
+		/* list-style-type: none;
+		font-weight:bold; */
+	}
+
+.simple-list li	{
+		line-height: 120%;
+		margin-left: 40px;
+		padding: 5px 0px 5px 5px;
+	}
+
+.fa-file	{
+		color:darkgreen;
+		margin-right:5pt;
+	}
+
+
+/* ########### 599px以下 ########### */
+@media (max-width: 599px) {
+
+}
+
+
+/* ########### 767px以下 ########### */
+@media (max-width: 767px) {
+.item1-1-text, .item1-3-text, .item1-4-text, .item1-5-text  {
+		font-size: 70%;
+	}
+
+.item1-2-text  {
+		font-size: 60%;
+	}
+
+.item2-1-text  {
+		top: 10%; 
+	}
+
+.item2-2-text  {
+		top: 44%; 
+	}
+
+.item2-3-text  {
+		top: 79%; 
+	}
+
+.simple-list li	{
+		margin-left: 20px;
+	}
+
+}
+
+/* ########### 768px以上 ########### */
+@media (min-width: 768px) {
+
+
+}
+

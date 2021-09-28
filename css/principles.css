@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.kiji h2	{
+		color: forestgreen;
+		border-bottom: solid 1px forestgreen;
+	}
+
+.kiji h3	{
+		color: darkgreen;
+	}
+
+
+.fa-leaf	{
+		color:forestgreen;
+	}
+
+
+
+.fa-check	{
+		color:darkgreen;
+		margin-right:5pt;
+	}
+
+/* ########### 599px以下 ########### */
+@media (max-width: 599px) {
+
+}
+
+
+/* ########### 767px以下 ########### */
+@media (max-width: 767px) {
+
+
+}
+
+/* ########### 768px以上 ########### */
+@media (min-width: 768px) {
+
+
+}
+

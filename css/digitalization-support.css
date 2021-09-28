@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+.kiji h2	{
+		color: #000066;
+		border-bottom: solid 1px #000066;
+	}
+
+.kiji h3	{
+		color: #000066;
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+
+.kiji h3[class="h3-2"]	{
+		font-size: 20px;
+		color: #000066;
+		margin-left: 10px;
+		margin-bottom: 0px;
+		text-decoration:underline;
+	}
+
+.fa-leaf	{
+		color:#000066;
+	}
+
+.fa-balance-scale	{
+		color:forestgreen;
+	}
+
+.icon-telework	{
+		height:25px;
+		vertical-align: middle;
+	}
+
+.external-link-title	{
+		margin-top: 20px;
+		margin-left:10px;
+		margin-bottom: 5px;
+	}
+
+.external-link-url	{
+		margin-top: 0;
+		margin-left:10px;
+		padding-left:20px;
+		margin-bottom: 10px;
+	}
+	
+
+
+.simple-list	{
+		margin-top: 0px;
+		margin-bottom: 5px;
+		list-style-type: square;
+		/* list-style-type: none;
+		font-weight:bold; */
+	}
+
+.simple-list li	{
+		line-height: 120%;
+		margin-left: 40px;
+		padding: 5px 0px 5px 5px;
+	}
+
+.fa-file	{
+		color:darkgreen;
+		margin-right:5pt;
+	}
+
+
+.kiji .case_support_ttl {
+		font-size: 20px;
+		font-weight: 700;
+		color: white;
+		padding: 6px 10px;
+		/* background-color: #3172D4; */
+		background-color: #0043A8;
+	}
+.case_support_inner {
+		padding: 17px 20px;
+		background-color: #E9F0FA;
+		position: relative;
+		margin-bottom: 40px;
+	}
+.case_support_inner:after {
+		content: "";
+		display: block;
+		background-image: url(../../img/case/case_arrow.png);
+		width: 400px;
+		height: 20px;
+		position: absolute;
+		bottom: -30px;
+		left: 50%;
+		margin-left: -200px;
+	}
+.kiji .case_support_txt {
+		font-size: 16px;
+		margin-bottom: 24px;
+		text-indent: 0;
+	}
+.case_support_detail {
+		border-radius: 10px;
+		border: 2px dashed #3172D4;
+		background-color: #fff;
+		padding: 20px;
+		margin-bottom: 16px;
+	}
+.case_support_detail_dl {
+		display: table;
+		float: left;
+		/* width: 388px; */
+		width: 49%;
+		padding-right: 2%;
+		padding-bottom: 20px;
+	}
+.case_support_detail_dl:last-of-type {
+		padding-right: 0;
+	}
+.case_support_detail_dl dt {
+		display: table-cell;
+		font-size: 16px;
+		font-weight: 700;
+		color: #0043A8;
+		width: 50px;
+	}
+.case_support_detail_dl dd {
+		display: table-cell;
+		font-size: 16px;
+		font-weight: 700;
+		color: #3172D4;
+	}
+.case_support_detail_dl dd span {
+		font-size: 14px;
+		color: #333;
+	}
+.kiji .case_support_detail_note {
+		padding-left: 1em;
+		text-indent: -1em;
+		font-size: 14px;
+		margin-bottom: 10px;
+		clear: both;
+	}
+.case_support_detail_note:last-of-type {
+		margin-bottom: 0;
+	}
+
+.case_support_inner img	{
+		width: 100%;
+		height: auto;
+	}
+
+
+/* ########### 599px以下 ########### */
+@media (max-width: 599px) {
+.icon-telework	{
+		height:20px;
+	}
+}
+
+
+/* ########### 767px以下 ########### */
+@media (max-width: 767px) {
+
+.simple-list li	{
+		margin-left: 20px;
+	}
+
+.case_support_ttl {
+		font-size: 16px;
+		font-weight: 700;
+		color: #fff;
+		padding: 6px 15px;
+		background-color: #3172D4;
+	}
+.case_support_ttl {
+		background-color: #0043A8;
+	}
+.case_support_inner {
+		padding: 17px 15px;
+		background-color: #E9F0FA;
+		position: relative;
+		margin-bottom: 30px;
+	}
+.case_support_inner:after {
+		content: "";
+		display: block;
+		background-image: url(../../img/case/case_arrow.png);
+		background-size: 100%;
+		width: 200px;
+		height: 10px;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		margin-left: -100px;
+	}
+.case_support_txt ,
+.case_result_txt {
+		font-size: 14px;
+		line-height: 1.7;
+	}
+.case_support_txt {
+		margin-bottom: 24px;
+	}
+.case_support_detail {
+		border-radius: 10px;
+		border: 2px dashed #3172D4;
+		background-color: #fff;
+		padding: 20px;
+		margin-bottom: 16px;
+	}
+.case_support_detail_dl {
+		display: table;
+		width: 100%;
+		padding-bottom: 16px;
+	}
+.case_support_detail_dl dt {
+		display: table-cell;
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 700;
+		color: #0043A8;
+		width: 50px;
+	}
+.case_support_detail_dl dd {
+		display: table-cell;
+		font-size: 14px;
+		line-height: 1.7;
+		font-weight: 700;
+		color: #3172D4;
+	}
+.case_support_detail_dl dd span {
+		font-size: 12px;
+		line-height: 1.7;
+		color: #333;
+	}
+.case_support_detail_note {
+		padding-left: 1em;
+		text-indent: -1em;
+		font-size: 12px;
+		line-height: 1.7;
+		margin-bottom: 10px;
+		clear: both;
+	}
+.case_support_detail_note:last-of-type {
+		margin-bottom: 0;
+	}
+
+
+}
+
+/* ########### 768px以上 ########### */
+@media (min-width: 768px) {
+
+
+}
