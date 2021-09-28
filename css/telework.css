@@ -127,11 +127,11 @@
 
 .wrapper-obstacles {
 		position: relative;
-		width: 100%;
 
 		box-sizing     : border-box;           /* 罫線も含む長さ      */
 		/* background     : #B0C4DE;  */            /* BOXの背景色         */
 		border         : 1px solid black;   /* 枠線の指定          */
+		/* width: 100%;*/
 		width          : 30%;                  /* BOXの幅     */
 		padding: 5px;
 	}
@@ -382,6 +382,26 @@ ol.number li span {
 
 .wrapper-title, .wrapper-description {
 		width          : 46%;                  /* BOXの幅     */
+	}
+
+.box-obstacles {	
+		flex-direction: column;
+		height: 540px;
+	}
+
+.wrapper-obstacles {
+		height:180px;
+		width: 92%;
+	}
+
+.wrapper-obstacles.title {
+		width: 8%;
+		writing-mode: vertical-rl;	/* 縦書き */
+		text-orientation: upright;
+		display: inline-block;
+		padding-right: 2vw;
+		text-align: center;
+		align-items: center;
 	}
 
 .process-title, .process-title2, .process2-title, .process2-title2	{
