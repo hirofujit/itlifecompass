@@ -51,12 +51,12 @@
 
 .wrapper-title, .wrapper-description {
 		position: relative;
-		width: 100%;
 
 		box-sizing     : border-box;           /* 罫線も含む長さ      */
 		/* background     : #B0C4DE;  */            /* BOXの背景色         */
 		/* border         : 2px solid #35557f; */   /* 枠線の指定          */
-		width          : 20%;                  /* BOXの幅     */
+		/* width: 100%; */
+		/* width          : 20%; */                  /* BOXの幅     */
 	}
 
 .wrapper-title {
@@ -185,17 +185,17 @@
 		right: 0;
 
 		text-align: center;
-		font-size:1.5vw;
+		font-size:2.0vw;
 		line-height: 1.2;
 
 	}
 
 .process-title	{
-		top: 35%;
+		top: 30%;
 	}
 
 .process-title2	{
-		top: 30%;
+		top: 25%;
 	}
 
 .box2-process {
@@ -229,7 +229,7 @@
 		right: 0;
 
 		text-align: center;
-		font-size:1.5vw;
+		font-size:1.8vw;
 		line-height: 1.2;
 
 	}
@@ -352,28 +352,65 @@ ol.number li span {
 /* ########### 599px以下 ########### */
 @media (max-width: 599px) {
 
+.wrapper-title, .wrapper-description {
+		width          : 40%;                  /* BOXの幅     */
+	}
+
 }
 
 
 /* ########### 767px以下 ########### */
 @media (max-width: 767px) {
 
+.box-merit {
+		width          : 98%;                  /* BOXの幅             */
+	}
+
 .merit-title, .merit-title2 {
-		font-size:2.0vw;
+		font-size:4.0vw;
+	}
+
+.merit-title2 {
+		padding-top: 20%;
 	}
 
 .merit-description {
-		font-size:1.5vw;
+		padding-top: 10%;
+		font-size:3.0vw;
+	}
+
+
+.wrapper-title, .wrapper-description {
+		width          : 46%;                  /* BOXの幅     */
 	}
 
 .process-title, .process-title2, .process2-title, .process2-title2	{
-		font-size:2.0vw;
+		font-size:2.5vw;
+	}
+
+
+.process2-title	{
+		top: 20%;
+	}
+
+.process2-title2	{
+		top: 6%;
+	}
+
+.step-title	{
+		top: 25%;
+		left: -8%;
+		font-size:3.0vw;
 	}
 
 }
 
 /* ########### 768px以上 ########### */
 @media (min-width: 768px) {
+
+.wrapper-title, .wrapper-description {
+		width          : 20%;                  /* BOXの幅     */
+	}
 
 
 }
