@@ -386,11 +386,11 @@ ol.number li span {
 
 .box-obstacles {	
 		flex-direction: column;
-		height: 540px;
+		height: 570px;
 	}
 
 .wrapper-obstacles {
-		height:180px;
+		height:190px;
 		width: 92%;
 	}
 
@@ -399,7 +399,8 @@ ol.number li span {
 		writing-mode: vertical-rl;	/* 縦書き */
 		text-orientation: upright;
 		display: inline-block;
-		padding-right: 2vw;
+		padding-right: 1vw;
+		padding-left: 1vw;
 		text-align: center;
 		align-items: center;
 	}
